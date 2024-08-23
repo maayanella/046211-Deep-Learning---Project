@@ -30,7 +30,6 @@ The CNN model, is the complexiest, and the most fitable for out project goal.
 
 
 ## How to Use
-To utilize our earthquake prediction model, follow these steps:
 1. **Clone the Repository:** Clone this repository to your local machine.
 2. **Install Dependencies:** Ensure all necessary dependencies are installed.
 3. **Prepare Data:** If using custom data, format it appropriately and replace the existing dataset.
@@ -39,16 +38,18 @@ To utilize our earthquake prediction model, follow these steps:
 
 ## Libraries Used
 
++----------------------+--------------------------------------+
 | Library              | Command to Install                   |
-|----------------------|--------------------------------------|
-| transformers         | `pip install transformers`           |
-| rwkv                 | `pip install rwkv`                   |
++----------------------+--------------------------------------+
 | numpy                | `pip install numpy`                  |
 | pandas               | `pip install pandas`                 |
 | torch                | `pip install torch`                  |
 | matplotlib           | `pip install matplotlib`             |
-| tqdm                 | `pip install tqdm`                   |
 | sklearn.metrics      | `pip install scikit-learn`           |
+| xgboost              | `pip install xgboost`                |
++----------------------+--------------------------------------+
+
+
 
 ## Results Summary
 Our adapted RWKV method shows good results in predicting the number of earthquakes in Turkey. We used training, validation, and testing to achieve our results. Detailed results and visualizations can be found in the `results` directory. While our predictions did not match the magnitude's full size, it successfully predicted spikes when they occurred.
