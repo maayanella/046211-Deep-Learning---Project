@@ -38,7 +38,7 @@ The CNN model, is the complexiest, and the most fitable for out project goal.
 
 ## Libraries Used
 
-|----------------------|--------------------------------------|
+
 | Library              | Command to Install                   |
 |----------------------|--------------------------------------|
 | numpy                | `pip install numpy`                  |
@@ -47,17 +47,26 @@ The CNN model, is the complexiest, and the most fitable for out project goal.
 | matplotlib           | `pip install matplotlib`             |
 | sklearn.metrics      | `pip install scikit-learn`           |
 | xgboost              | `pip install xgboost`                |
-|----------------------|--------------------------------------|
+
 
 
 
 ## Results Summary
+
 Our adapted RWKV method shows good results in predicting the number of earthquakes in Turkey. We used training, validation, and testing to achieve our results. Detailed results and visualizations can be found in the `results` directory. While our predictions did not match the magnitude's full size, it successfully predicted spikes when they occurred.
 ![WhatsApp Image 2024-04-07 at 21 04 28_e8f44de1](https://github.com/DanielLevi6/046211-Deep-Learning/assets/88712194/943feeb5-5404-42fb-9433-4372b0844a0b)
 
 
 ## Conclusion
-In conclusion, our project demonstrates the effectiveness of utilizing advanced numerical techniques, such as RWKV, for earthquake prediction tasks. By leveraging methodologies tailored to our specific requirements and leveraging the resources available at the Technion, we have made significant strides toward enhancing our understanding and forecasting capabilities of seismic events in Turkey.
+The CNN achieved the highest accuracy on the test set. XGBoost showed minimal improvement when optimizing hyperparameters or increasing input size. Logistic regression performed best with the smallest input size. The final and best results are summarized in the following table:
+| Model          | CNN          | Logistic Regression | XGBoost          |
+|----------------|--------------|---------------------|------------------|
+| Accuracy       | 67%	| 58.69%	| 60.33% |
+ 
+ CNN	Logistic Regression	XGBoost
+Best Accuracy result	67%	58.69%	60.33%
+
+Our results are inferior compared to the best results found online. However, best previous models used more complex or extensive input data. For example, some models included team power rankings or player statistics [1] [2]. Other previous works we found online had worse accuracy than ours although they used statistics that we didn’t use. For example, the user “luke-lite”[3] got only worse accuracy than ours although we used players statistics and not only teams statistics. 
 
 
 ## References
