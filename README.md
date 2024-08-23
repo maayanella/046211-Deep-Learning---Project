@@ -50,35 +50,33 @@ The CNN model, is the complexiest, and the most fitable for out project goal.
 
 
 
-
-## Results Summary
-
-Our adapted RWKV method shows good results in predicting the number of earthquakes in Turkey. We used training, validation, and testing to achieve our results. Detailed results and visualizations can be found in the `results` directory. While our predictions did not match the magnitude's full size, it successfully predicted spikes when they occurred.
-![WhatsApp Image 2024-04-07 at 21 04 28_e8f44de1](https://github.com/DanielLevi6/046211-Deep-Learning/assets/88712194/943feeb5-5404-42fb-9433-4372b0844a0b)
+## Conclusion & Results 
+The CNN achieved the highest accuracy on the test set as expected.  XGBoost showed minimal improvement when optimizing hyperparameters or increasing input size. Logistic regression performed best with the smallest input size. The final and best results are summarized in the following table:
 
 
-## Conclusion
-The CNN achieved the highest accuracy on the test set. XGBoost showed minimal improvement when optimizing hyperparameters or increasing input size. Logistic regression performed best with the smallest input size. The final and best results are summarized in the following table:
-| Model          | CNN          | Logistic Regression | XGBoost          |
+| Model          | CNN          | XGBoost  |      Logistic Regression     |
 |----------------|--------------|---------------------|------------------|
-| Accuracy       | 67%	| 58.69%	| 60.33% |
- 
- CNN	Logistic Regression	XGBoost
-Best Accuracy result	67%	58.69%	60.33%
+| Accuracy       | 67%	| 60.33% 	| 58.69% |
 
-Our results are inferior compared to the best results found online. However, best previous models used more complex or extensive input data. For example, some models included team power rankings or player statistics [1] [2]. Other previous works we found online had worse accuracy than ours although they used statistics that we didn’t use. For example, the user “luke-lite”[3] got only worse accuracy than ours although we used players statistics and not only teams statistics. 
+
+<img width="388" alt="image" src="https://github.com/user-attachments/assets/1263def6-2200-4b4e-9a3f-992d72734350">
 
 
 ## References
-- Kaggle dataset website - https://www.kaggle.com/datasets/ozgecinko/turkey-earthquake-data-1914-2023
-- Hugging face RWKV - https://github.com/younesbelkada/transformers/tree/b4d4d6fe87ffcd7508307970cdf8fa3eda288701/src/transformers/models/rwkv
+- Kaggle dataset website - https://www.kaggle.com/datasets/wyattowalsh/basketball
+- Previous work for example :
+                       https://towardsdatascience.com/predicting-the-outcome-of-nba-games-with-machine-learning-a810bb768f20
+                       https://github.com/kyleskom/NBA-Machine-Learning-Sports-Betting
+                       https://github.com/luke-lite/NBA-Prediction-Modeling
 
 
 ## Future Work
-While our current model shows good results, there is still room for improvement. Future work could focus on further fine-tuning the model parameters, incorporating additional data sources, and exploring alternative prediction algorithms to enhance accuracy and robustness.
-Additionally, more data features can be used and implemented in the model such that it will improve the model's capabilities of predicting the number of earthquakes.
+As discussed in earlier chapters, online models have shown marginally better performance than ours, even with advanced techniques like XGBoost, CNN, and logistic regression. While these differences are minimal, we believe there are two primary avenues for enhancing our model's accuracy.
+First, increasing the input size has consistently led to improved predictions. However, we caution that excessive historical data could introduce noise. Moreover, this approach demands more computational resources and processing time.
+Second, refining the data itself offers potential benefits. This could involve gathering additional game statistics, such as player-level data, or optimizing the preprocessing pipeline. We believe there is ample room for improvement in both areas.
+
 
 ## Contact
-For inquiries or further information, please contact danielevi@campus.technion.ac.il, tzvi-tal@campus.technion.ac.il
+For inquiries or further information, please contact zilberman@campus.technion.ac.il, maayanella@campus.technion.ac.il
 
-Thank you for your interest in our Earthquake Prediction project.
+Thank you for your interest in our NBA Prediction project.
