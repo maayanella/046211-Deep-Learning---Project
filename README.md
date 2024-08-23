@@ -13,8 +13,7 @@ We aimed to predict the winner of a NBA gma by using 3 main ML predictors, Logis
 ## Data
 The dataset used in this project was sourced from Kaggle and encompasses game statistics spanning from the 1960s to 2023. Initially, we filtered the raw data to include only games with complete statistical lines. This filtering process resulted in a dataset of approximately 45,000 games, categorized into ‘Regular Season’ and ‘Playoffs’ games. The dataset exclusively contains team statistics, such as shot attempts, rebounds, fouls, and other metrics, without any individual player statistics. To prepare the data for analysis, we applied a normal distribution to each column. Additionally, we created a collection of previous games for each row, as previously mentioned.
 
-
-![WhatsApp Image 2024-04-07 at 21 04 28_e74cb264](https://github.com/DanielLevi6/046211-Deep-Learning/assets/88712194/c96e8a3b-c3f8-4f27-8d41-56e13096ba48)
+<img width="1330" alt="image" src="https://github.com/user-attachments/assets/50ca81a5-8cd0-4202-8b1a-e37446496491">
 
 ## Model
 RWKV is often used for NLP (natural language processing) tasks, but since our project does not focus on NLP, we had to adjust it. Therefore we added a few layers as can be seen in the diagram below.
