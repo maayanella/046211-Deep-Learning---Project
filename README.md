@@ -15,15 +15,18 @@ The dataset used in this project was sourced from Kaggle and encompasses game st
 
 <img width="1330" alt="image" src="https://github.com/user-attachments/assets/50ca81a5-8cd0-4202-8b1a-e37446496491">
 
-## Model
-RWKV is often used for NLP (natural language processing) tasks, but since our project does not focus on NLP, we had to adjust it. Therefore we added a few layers as can be seen in the diagram below.
-![Screenshot 2024-04-07 222219](https://github.com/DanielLevi6/046211-Deep-Learning/assets/88712194/c4901f7e-f8c9-4b31-9d58-10795da04ea7)
+## Models
+Logistic Regression is a linear model that can provide descent results only for simple problems and therfore used as baseline method for comparison. 
+XGBoots model is more complex model, that use a decision tree with conrolable depth to predict. Althogt the XGBoots is more complex, it still has a limited span representation. 
+The CNN model, is the complexiest, and the most fitable for out project goal. 
+
+<img width="564" alt="image" src="https://github.com/user-attachments/assets/b6eefc7f-4dd2-49b7-ad00-559307348623">
+
 
 
 ## Repository Structure
-- **data:** This directory contains datasets used for training, validating, and testing the prediction model.
+- **data:** This directory contains raw datasets and the filtered dataset.
 - **code:** Source code for the prediction model implementation is located here.
-- **results:** This directory stores model predictions and relevant visualizations.
 
 
 ## How to Use
