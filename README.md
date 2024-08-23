@@ -1,20 +1,18 @@
-# Earthquake Prediction in Turkey
-Welcome to the Earthquake Prediction project repository.
-This repository houses the code and resources for predicting the number of earthquakes in Turkey on a given day. Our main goal is to provide a reliable tool for forecasting seismic activity, aiding in disaster management and mitigation efforts.
+# NBA Game Winner Prediction
+Welcome to the NBA game winner Prediction project repository.
 
 
 ## Overview
-Earthquakes present significant challenges to communities and infrastructure, emphasizing the importance of accurate prediction. Our project focuses on forecasting the number of earthquakes occurring in Turkey within a specified time frame. By analyzing historical seismic data and employing predictive modeling techniques, we aim to provide valuable insights into earthquake occurrence patterns.
+In this project, we aim to use historical data from the past few decades to predict the winners of future games. Specifically, we want to determine which team is likely to win the next match based on past games data.
 
 
 ## Methodology
-In this project, we adapted the Receptance, Weight, Key, and Value (RWKV) method to suit our numerical prediction task. RWKV is a powerful technique commonly used in time-series forecasting, which we modified and fine-tuned to suit our specific application better. Leveraging the expertise and resources available, we customized the algorithm to optimize its performance for earthquake prediction.
+We aimed to predict the winner of a NBA gma by using 3 main ML predictors, Logistic Regression, XGBoots and CNN. The input of the predictions tools is a collection of previous games of both opponents and their last matchups. 
 
 
 ## Data
-The dataset utilized in this project was obtained from Kaggle and comprises earthquake records about Turkey and its surrounding regions. Spanning from September 1994 to September 2023, the dataset exclusively encompasses earthquakes with magnitudes exceeding 3.0 on the Richter scale. Each earthquake record includes essential information such as the date and time of occurrence, latitude and longitude coordinates, depth below the Earth's surface, and various magnitude measurements (e.g., Richter scale, moment magnitude scale). Additionally, the dataset provides information on the type or source of the earthquake and specifies the location or geographical region where it occurred. This comprehensive dataset serves as the foundation for our earthquake prediction model, enabling robust analysis and forecasting of seismic activity within the region.
-<br>
-<br>
+The dataset used in this project was sourced from Kaggle and encompasses game statistics spanning from the 1960s to 2023. Initially, we filtered the raw data to include only games with complete statistical lines. This filtering process resulted in a dataset of approximately 45,000 games, categorized into ‘Regular Season’ and ‘Playoffs’ games. The dataset exclusively contains team statistics, such as shot attempts, rebounds, fouls, and other metrics, without any individual player statistics. To prepare the data for analysis, we applied a normal distribution to each column. Additionally, we created a collection of previous games for each row, as previously mentioned.
+
 
 ![WhatsApp Image 2024-04-07 at 21 04 28_e74cb264](https://github.com/DanielLevi6/046211-Deep-Learning/assets/88712194/c96e8a3b-c3f8-4f27-8d41-56e13096ba48)
 
