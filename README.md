@@ -38,16 +38,16 @@ The CNN model, is the complexiest, and the most fitable for out project goal.
 
 ## Libraries Used
 
-+----------------------+--------------------------------------+
+|----------------------|--------------------------------------|
 | Library              | Command to Install                   |
-+----------------------+--------------------------------------+
+|----------------------|--------------------------------------|
 | numpy                | `pip install numpy`                  |
 | pandas               | `pip install pandas`                 |
 | torch                | `pip install torch`                  |
 | matplotlib           | `pip install matplotlib`             |
 | sklearn.metrics      | `pip install scikit-learn`           |
 | xgboost              | `pip install xgboost`                |
-+----------------------+--------------------------------------+
+|----------------------|--------------------------------------|
 
 
 
