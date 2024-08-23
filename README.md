@@ -65,9 +65,9 @@ The CNN achieved the highest accuracy on the test set as expected.  XGBoost show
 ## References
 - Kaggle dataset website - https://www.kaggle.com/datasets/wyattowalsh/basketball
 - Previous work for example :
-                       https://towardsdatascience.com/predicting-the-outcome-of-nba-games-with-machine-learning-a810bb768f20
-                       https://github.com/kyleskom/NBA-Machine-Learning-Sports-Betting
-                       https://github.com/luke-lite/NBA-Prediction-Modeling
+                        https://towardsdatascience.com/predicting-the-outcome-of-nba-games-with-machine-learning-a810bb768f20
+                        https://github.com/kyleskom/NBA-Machine-Learning-Sports-Betting
+                        https://github.com/luke-lite/NBA-Prediction-Modeling
 
 
 ## Future Work
