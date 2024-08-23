@@ -64,13 +64,13 @@ The CNN achieved the highest accuracy on the test set as expected.  XGBoost show
 
 ## References
 - Kaggle dataset website - https://www.kaggle.com/datasets/wyattowalsh/basketball
-- Previous work for example (1): https://towardsdatascience.com/predicting-the-outcome-of-nba-games-with-machine-learning-a810bb768f20
+- Previous work for example (1): https://github.com/luke-lite/NBA-Prediction-Modeling 
 - Previous work for example (2): https://github.com/kyleskom/NBA-Machine-Learning-Sports-Betting
-- Previous work for example (3): https://github.com/luke-lite/NBA-Prediction-Modeling
+- Previous work for example (3): https://towardsdatascience.com/predicting-the-outcome-of-nba-games-with-machine-learning-a810bb768f20
 
 
 ## Future Work
-As discussed in earlier chapters, online models have shown marginally better performance than ours, even with advanced techniques like XGBoost, CNN, and logistic regression. While these differences are minimal, we believe there are two primary avenues for enhancing our model's accuracy.
+Online models have shown marginally better performance than ours, even with basic techniques like XGBoost and logistic regression, or with CNN. While these differences are minimal, we believe there are two primary avenues for enhancing our model's accuracy.
 First, increasing the input size has consistently led to improved predictions. However, we caution that excessive historical data could introduce noise. Moreover, this approach demands more computational resources and processing time.
 Second, refining the data itself offers potential benefits. This could involve gathering additional game statistics, such as player-level data, or optimizing the preprocessing pipeline. We believe there is ample room for improvement in both areas.
 
